@@ -19,7 +19,6 @@ function App() {
         <Routes>
         <Route path='/projects/home' element={<ProjectsIndex />} />
         <Route path='/projects/:slug' element={<ProjectsShow />} />
-        <Route path='/projects/:slug/demo' element={<ProjectsDemo />} />
 
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
