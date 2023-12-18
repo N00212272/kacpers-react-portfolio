@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import ProjectCard from '../../components/ProjectCard';
+import ProjectHero from '../../components/ProjectHero';
 import axios from 'axios';
 
 const Index = () => {
@@ -20,11 +20,11 @@ const Index = () => {
   if (!projects) return "loading ...";
 
   const projectList = projects.map((project, i) => {
-    return <ProjectCard key={i} project={project} />;
+    return <ProjectHero key={i} project={project} />;
   });
 
   return (
-    <div className='grid grid-cols-4 gap-6 '>
+    <div className='grid grid-cols-1 br '>
       {projectList}
     </div>
   );

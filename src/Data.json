@@ -1,0 +1,35 @@
+[
+    {
+        "slug": "todo-app",
+        "title": "Todo App",
+        "description": "This is a ToDo app i made using React, I used LocalStorage to store data. I could create tasks and delete them once they were completed",
+        "images": [
+            {
+                "caption": "Screenshot of code",
+                "path": "https://picsum.photos/id/0/200/300"
+            }
+        ],
+        "date": "2023",
+        "tags": ["Javascript", "React","HTML", "Front-End"],
+        "website": "https://to-do-react-8ee9d.web.app",
+        "github": "https://github.com/N00212272/react-todo.git"
+       
+
+    },
+
+    {
+        "slug": "giphy-app",
+        "title": "Giphy App",
+        "description": "I found this interesting, it was the first project i used which pulled an api, which was gifs",
+        "images": [
+            {
+                "caption": "Screenshot of code",
+                "path": "https://picsum.photos/200/300"
+            }
+        ],
+        "date": "2023",
+        "tags": ["Javascript", "React","HTML", "Front-End","Rest-Client","API"],
+        "website": "http://google.com"
+
+    }
+]
