@@ -1,6 +1,10 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation} from 'react-router-dom';
 
-const MyNavBar = () => {
+const MyNavBar = ({term,handleChange}) => {
+  const location = useLocation();
+  const handleInputChange = (e) => {
+      handleChange(e);
+  };
     return (
         <div className="navbar bg-primary">
         <div className="navbar-start">
@@ -14,6 +18,17 @@ const MyNavBar = () => {
               <li><Link to='/contact'>Contact</Link></li>
             </ul>
           </div>
+          {location.pathname === '/projects/home' && (
+        <div className='flex-1 ml-5'>
+          {/* Input for searching Projects */}
+          <input
+            type='text'
+            placeholder="Search a Project...."
+            onChange={handleInputChange}
+            value={term}
+          />
+        </div>
+      )}
         </div>
         <div className="navbar-center">
         <Link to='/'><a href className="btn btn-ghost normal-case text-xl text-white">Kacpers Porfolio</a></Link>
