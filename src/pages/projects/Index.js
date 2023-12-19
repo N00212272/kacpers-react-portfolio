@@ -10,7 +10,6 @@ const Index = () => {
       .get('https://portfolio-react-92097-default-rtdb.europe-west1.firebasedatabase.app/.json')
       .then(response => {
         setProjects(response.data);
-        console.log(response.data)
       })
       .catch(err => {
         console.error(err.message);
@@ -19,13 +18,13 @@ const Index = () => {
 
   if (!projects) return "loading ...";
 
-  const projectList = projects.map((project, i) => {
-    return <ProjectHero key={i} project={project} />;
-  });
-
   return (
-    <div className='grid grid-cols-1 br '>
-      {projectList}
+    <div>
+      {projects.map((project, i) => (
+        <div key={i} className="mb-4">
+          <ProjectHero project={project} />
+        </div>
+      ))}
     </div>
   );
 };

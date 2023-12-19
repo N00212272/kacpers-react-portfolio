@@ -17,7 +17,6 @@ function App() {
       <div className='container mx-auto'>
         <Routes>
         <Route path='/projects/home' element={<ProjectsIndex />} />
-
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />

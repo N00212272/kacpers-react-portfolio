@@ -1,12 +1,11 @@
 [
     {
-        "slug": "todo-app",
         "title": "Todo App",
-        "description": "This is a ToDo app i made using React, I used LocalStorage to store data. I could create tasks and delete them once they were completed",
+        "description": "This project i created using an API, where i created an admin page which had crud functionalityThis project i created using an API, where i created an admin page which had crud functionalityThis project i created using an API, where i created an admin page which had crud functionality ",
         "images": [
             {
                 "caption": "Screenshot of code",
-                "path": "https://picsum.photos/id/0/200/300"
+                "path": "https://picsum.photos/200/300"
             }
         ],
         "date": "2023",
@@ -18,7 +17,6 @@
     },
 
     {
-        "slug": "giphy-app",
         "title": "Giphy App",
         "description": "I found this interesting, it was the first project i used which pulled an api, which was gifs",
         "images": [
@@ -29,7 +27,21 @@
         ],
         "date": "2023",
         "tags": ["Javascript", "React","HTML", "Front-End","Rest-Client","API"],
-        "website": "http://google.com"
-
+        "website": "https://giphy-react-a9c7f.web.app",
+        "github": "https://github.com/N00212272/react-giph.git"
+    },
+    {
+        "title": "Courses App",
+        "description": "This project i created using an API, where i created an admin page which had crud functionality",
+        "images": [
+            {
+                "caption": "Screenshot of code",
+                "path": "https://picsum.photos/200/300"
+            }
+        ],
+        "date": "2023",
+        "tags": ["Javascript", "React","HTML", "Front-End","Rest-Client","API"],
+        "website": "https://kacper-courses-api.web.app",
+        "github": "https://github.com/N00212272/courses-api-kacper-ca2.git"
     }
 ]
