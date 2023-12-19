@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { useState } from 'react';
 //importing Pages
 import Home from './pages/Home';
 import About from './pages/About';
@@ -11,12 +12,16 @@ import ProjectsIndex from './pages/projects/Index';
 import MyNavBar from './components/MyNavBar';
 
 function App() {
+  const handleChange = (e) => {
+    setTerm(e.target.value);
+  };
+  const [term, setTerm] = useState("");
   return (
     <Router>
-     <MyNavBar/>
+     <MyNavBar handleChange={handleChange}/>
       <div className='container mx-auto'>
         <Routes>
-        <Route path='/projects/home' element={<ProjectsIndex />} />
+        <Route path='/projects/home' element={<ProjectsIndex term={term} />} />
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
