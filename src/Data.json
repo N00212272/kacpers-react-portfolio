@@ -32,7 +32,7 @@
     },
     {
         "title": "Courses App",
-        "description": "This project i created using an API, where i created an admin page which had crud functionality",
+        "description": "This project i created using an API, where i created an admin page which had crud functionality. Using Tailwind i made my application very ux friendly.",
         "images": [
             {
                 "caption": "Screenshot of code",
@@ -43,5 +43,103 @@
         "tags": ["Javascript", "React","HTML", "Front-End","Rest-Client","API"],
         "website": "https://kacper-courses-api.web.app",
         "github": "https://github.com/N00212272/courses-api-kacper-ca2.git"
+    },
+    {
+        "title": "Countries App",
+        "description": "This project i created using an API, I recieved data for each country and presented the data appropriately. I also used another api to get the weather information of that selected country.",
+        "images": [
+            {
+                "caption": "Screenshot of code",
+                "path": "https://picsum.photos/200/300"
+            }
+        ],
+        "date": "2023",
+        "tags": ["Javascript", "React","HTML", "Front-End","Rest-Client","API"],
+        "website": "https://countries-api-kacper-d97ae.web.app",
+        "github": "https://github.com/N00212272/Countries-Api-React.git"
+    },
+    {
+        "title": "Laravel-GoBaby-app",
+        "description": "This project i created using Laravel. I created an ecom website where users could buy and sell their baby products. I created roles where one admins could edit delete products etc. Where users could only delete or edit their own. I used mySQL to store this data where i used migations to prefill my data. Both sets of users could filter through items to match their preferences. ",
+        "images": [
+            {
+                "caption": "Screenshot of code",
+                "path": "https://picsum.photos/200/300"
+            }
+        ],
+        "date": "2022",
+        "tags": ["PHP", "Laravel","HTML", "Web-devlopment"],
+        "github": "https://github.com/y2-SW-project/swproject23-N00212272.git"
+    },
+    {
+        "title": "Data-visualisation",
+        "description": "This project i used Javascript to display data visually. I would have imported data from CSO.ie and used different graphs to display this data",
+        "images": [
+            {
+                "caption": "Screenshot of code",
+                "path": "https://picsum.photos/200/300"
+            }
+        ],
+        "date": "2022",
+        "tags": ["Javascript", "CSS","HTML", "Data-visualisation"],
+        "website": "https://data-creative-coding.web.app",
+        "github": "https://github.com/N00212272/Creative-Coding-Kacper-Agatowski.git"
+      
+    },
+    {
+        "title": "SASS",
+        "description": "This project i created a application to buy tickets to an event. It was based on front-end only and i was experimenting using the SASS framework",
+        "images": [
+            {
+                "caption": "Screenshot of code",
+                "path": "https://picsum.photos/200/300"
+            }
+        ],
+        "date": "2022",
+        "tags": ["HTML", "SASS","Front-End"],
+        "website": "https://letspartykacper.netlify.app/",
+        "github": "https://github.com/N00212272/Ca-frameworks-kacper.git"
+    },
+    {
+        "title": "StockX-remake",
+        "description": "This was my first ever project i created. I had recreate a website of my choice and hard code everything. This project was very challenging for me with no experince of coding and it was time consuming as everything was hardcoded. You can go to the next page by clicking about in nav and back to index by clicking the logo on top left",
+        "images": [
+            {
+                "caption": "Screenshot of code",
+                "path": "https://picsum.photos/200/300"
+            }
+        ],
+        "date": "2021",
+        "tags": ["HTML", "CSS","Front-End"],
+        "website": "https://candid-dasik-bddb4d.netlify.app",
+        "github": "https://github.com/N00212272/StockX.git"
+    },   
+    {
+        "title": "OOP",
+        "description": "This application i created using OOP. I would have different classes and within the console of each class you could type specific commands such as dog and console would respond with a bark Or set up a basket where you add items to basket then can see the overall price",
+        "images": [
+            {
+                "caption": "Screenshot of code",
+                "path": "https://picsum.photos/200/300"
+            }
+        ],
+        "date": "2021",
+        "tags": ["OOP", "HTML"],
+        "github": "https://github.com/N00212272/oop-assignments-N00212272-main.git"
+    },
+    {
+        "title": "PHP-Magazine",
+        "description": "This project was first created hardcoded, which is the website link. However then i created a database where users could add articles and click and view a specific one. This was the first project i did which had front-end and backend",
+        "images": [
+            {
+                "caption": "Screenshot of code",
+                "path": "https://picsum.photos/200/300"
+            }
+        ],
+        "date": "2021",
+        "tags": ["PHP","Front-End","Back-end", "HTML", "CSS"],
+        "website": "https://preeminent-souffle-9af59b.netlify.app",
+        "github": "https://github.com/N00212272/database-integrated.git"
     }
+    
 ]

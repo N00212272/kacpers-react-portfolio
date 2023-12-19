@@ -15,12 +15,15 @@ const ProjectHero = ({ project }) => {
               src={project.images[0].path}
               alt="Project Image"
               className="py-3 max-w-full rounded-lg shadow-2xl"
+              title={project.images[0].caption}
             />
+            
           )}
         </div>
         <div className="lg:col-span-1 lg:pl-4">
           {/* Project details */}
           <h1 className="text-5xl font-bold py-4">{project.title}</h1>
+          <p><b>Created in: </b>{project.date}</p>
           <div className="description-container py-2">
             <b>About this Project: </b>
             <p>{project.description}</p>
