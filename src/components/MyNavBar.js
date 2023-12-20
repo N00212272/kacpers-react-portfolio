@@ -30,6 +30,7 @@ const MyNavBar = ({term,handleChange}) => {
             placeholder="Search a Project...."
             onChange={handleInputChange}
             value={term}
+            className='rounded'
           />
         </div>):( <div className="navbar-end">
           
