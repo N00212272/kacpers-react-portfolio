@@ -16,10 +16,14 @@ const MyNavBar = ({term,handleChange}) => {
               <li><Link to='/about'>About</Link></li>
               <li><Link to='/projects/home'>Projects</Link></li>
               <li><Link to='/contact'>Contact</Link></li>
+              <li><Link to='/certificates'>Certificates</Link></li>
             </ul>
           </div>
-          {location.pathname === '/projects/home' && (
-        <div className='flex-1 ml-5'>
+        </div>
+        <div className="navbar-center">
+        <Link to='/'><a href className="btn btn-ghost normal-case text-xl text-white">Kacpers Porfolio</a></Link>
+        </div>
+        {(location.pathname === '/projects/home')?(<div className='navbar-end'>
           {/* Input for searching Projects */}
           <input
             type='text'
@@ -27,15 +31,9 @@ const MyNavBar = ({term,handleChange}) => {
             onChange={handleInputChange}
             value={term}
           />
-        </div>
-      )}
-        </div>
-        <div className="navbar-center">
-        <Link to='/'><a href className="btn btn-ghost normal-case text-xl text-white">Kacpers Porfolio</a></Link>
-        </div>
-        <div className="navbar-end">
+        </div>):( <div className="navbar-end">
           
-        </div>
+          </div>)}
       </div>
     );
 };
