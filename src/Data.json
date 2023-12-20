@@ -5,7 +5,7 @@
         "images": [
             {
                 "caption": "Screenshot of code",
-                "path": "https://picsum.photos/200/300"
+                "path": "../images/todoList.JPG"
             }
         ],
         "date": "2023",
@@ -21,8 +21,8 @@
         "description": "I found this interesting, it was the first project i used which pulled an api, which was gifs",
         "images": [
             {
-                "caption": "Screenshot of code",
-                "path": "https://picsum.photos/200/300"
+                "caption": "Screenshot of APP",
+                "path": "../images/giphy.JPG"
             }
         ],
         "date": "2023",
@@ -36,7 +36,7 @@
         "images": [
             {
                 "caption": "Screenshot of code",
-                "path": "https://picsum.photos/200/300"
+                "path": "../images/courses.JPG"
             }
         ],
         "date": "2023",
@@ -49,8 +49,8 @@
         "description": "This project i created using an API, I recieved data for each country and presented the data appropriately. I also used another api to get the weather information of that selected country.",
         "images": [
             {
-                "caption": "Screenshot of code",
-                "path": "https://picsum.photos/200/300"
+                "caption": "Screenshot of APP",
+                "path": "../images/countries.JPG"
             }
         ],
         "date": "2023",
@@ -64,7 +64,7 @@
         "images": [
             {
                 "caption": "Screenshot of code",
-                "path": "https://picsum.photos/200/300"
+                "path": "../images/laravelgo.JPG"
             }
         ],
         "date": "2022",
@@ -76,8 +76,8 @@
         "description": "This project i used Javascript to display data visually. I would have imported data from CSO.ie and used different graphs to display this data",
         "images": [
             {
-                "caption": "Screenshot of code",
-                "path": "https://picsum.photos/200/300"
+                "caption": "Screenshot of APP",
+                "path": "../images/data-vis.JPG"
             }
         ],
         "date": "2022",
@@ -91,8 +91,8 @@
         "description": "This project i created a application to buy tickets to an event. It was based on front-end only and i was experimenting using the SASS framework",
         "images": [
             {
-                "caption": "Screenshot of code",
-                "path": "https://picsum.photos/200/300"
+                "caption": "Screenshot of APP",
+                "path": "../images/frameworks.JPG"
             }
         ],
         "date": "2022",
@@ -105,8 +105,8 @@
         "description": "This was my first ever project i created. I had recreate a website of my choice and hard code everything. This project was very challenging for me with no experince of coding and it was time consuming as everything was hardcoded. You can go to the next page by clicking about in nav and back to index by clicking the logo on top left",
         "images": [
             {
-                "caption": "Screenshot of code",
-                "path": "https://picsum.photos/200/300"
+                "caption": "Screenshot of APP",
+                "path": "../images/stock x.JPG"
             }
         ],
         "date": "2021",
@@ -120,7 +120,7 @@
         "images": [
             {
                 "caption": "Screenshot of code",
-                "path": "https://picsum.photos/200/300"
+                "path": "../images/oop.JPG"
             }
         ],
         "date": "2021",
@@ -133,7 +133,7 @@
         "images": [
             {
                 "caption": "Screenshot of code",
-                "path": "https://picsum.photos/200/300"
+                "path": "../images/webdev.JPG"
             }
         ],
         "date": "2021",
