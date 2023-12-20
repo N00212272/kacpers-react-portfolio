@@ -6,7 +6,7 @@ const ProjectHero = ({ project }) => {
   ));
 
   return (
-    <div className="hero min-h-screen base-content shadow-xl mt-5 rounded-box border border-gray-300">
+    <div className="hero min-h-screen base-content shadow-xl mt-5 rounded-box border border-gray-300 ">
       <div className="hero-content grid lg:grid-cols-2 gap-4">
         <div className="lg:col-span-1">
           {/* Project Image */}
