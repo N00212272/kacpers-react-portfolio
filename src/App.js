@@ -4,10 +4,10 @@ import { useState } from 'react';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Certificates from './pages/Certificates';
 import PageNotFound from './pages/PageNotFound';
 //importing Projects
 import ProjectsIndex from './pages/projects/Index';
-
 //components
 import MyNavBar from './components/MyNavBar';
 
@@ -25,6 +25,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/certificates' element={<Certificates />} />
 
           <Route path='*' element={<PageNotFound />} />
         </Routes>
