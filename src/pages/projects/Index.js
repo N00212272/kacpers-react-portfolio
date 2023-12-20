@@ -95,7 +95,7 @@ const applySort = (data, criteria, order) => {
   return (
     <>
       {/* Sort and tag filter controls */}
-      <div className="flex justify-end items-center">
+      <div className="flex justify-end items-center mt-5 ">
         <label htmlFor="sortOrder">
           <b>Sort Order: </b>
         </label>
