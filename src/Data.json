@@ -140,6 +140,20 @@
         "tags": ["PHP","Front-End","Back-end", "HTML", "CSS"],
         "website": "https://preeminent-souffle-9af59b.netlify.app",
         "github": "https://github.com/N00212272/database-integrated.git"
+    },
+    {
+        "title": "Clash",
+        "description": "My colleague and I created a competitive gaming application for out third year project. The application was built using laravel and react. The aim of the application is to allow users to create and join teams and matchmake against other users with a similar rank. The inspiration to create this project came from existing applications such as GameBattles and FaceIt",
+        "images": [
+            {
+                "caption": "Screenshot of APP",
+                "path": "../images/clashSS"
+            }
+        ],
+        "date": "2024",
+        "tags": ["In-development","Front-End","Back-end", "React", "Laravel"],
+        "website": "https://clash-d9110.web.app/",
+        "github": "https://github.com/xJustinJPD/react-clash"
     }
     
 ]
