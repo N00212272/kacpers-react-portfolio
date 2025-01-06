@@ -89,6 +89,10 @@ const applySort = (data, criteria, order) => {
     'SASS',
     'OOP',
     'Back-end',
+    'Python',
+    'React-native',
+    'Expo',
+    'TensorFlow'
   ];
 
   // Render the component
