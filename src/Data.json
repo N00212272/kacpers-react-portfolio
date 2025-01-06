@@ -154,6 +154,42 @@
         "tags": ["In-development","Front-End","Back-end", "React", "Laravel"],
         "website": "https://clash-d9110.web.app/",
         "github": "https://github.com/xJustinJPD/react-clash"
-    }
-    
+    },
+    {
+        "date": "2024",
+        "description": "I created an application using expo and react-native which is used for finding new recipes which are created by other users ",
+        "github": "https://github.com/N00212272/FlavourFind",
+        "images": [
+          {
+            "caption": "Screenshot of APP",
+            "path": "../images/flavourFind.JPG"
+          }
+        ],
+        "tags": [
+          "In-development",
+          "Front-End",
+          "Back-end",
+          "React-native",
+          "Javascript",
+          "Expo"
+        ],
+        "title": "FlavourFind",
+        "website": "https://flavour-find-rflf.vercel.app/"
+      },
+      {
+        "date": "2024",
+        "description": "I used two different bert pretrained model to do sentiment analysis on movie reviews. This allowed me to see how the model picks up on certain words, where i could see the accuracy of each model.",
+        "github": "https://github.com/IADT-CC-Y4-AI2/deep-learning-with-tensorflow-and-or-gemini-api-N00212272/blob/main/TextClassifcationMovieReviews.ipynb",
+        "images": [
+          {
+            "caption": "Screenshot of APP",
+            "path": "../images/sentimentAnalysis.JPG"
+          }
+        ],
+        "tags": [
+          "Python",
+          "TensorFlow"
+        ],
+        "title": "IMDB Reviews Text Classification"
+      }
 ]
