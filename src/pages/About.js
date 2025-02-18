@@ -22,7 +22,7 @@ const About = () => {
             >
               IADT
             </a>
-            . I am in my third year out of a four-year course.
+            . I am in my fourth year out of a four-year course.
           </p>
           <hr className="my-4 border-t-2 border-gray-300" />
           <p>
